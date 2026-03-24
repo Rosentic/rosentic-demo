@@ -13,3 +13,4 @@ def create_sample_orders():
     create_order("bulk_user_1", "sku_001")
     create_order("bulk_user_2", "sku_002")
     create_order("bulk_user_3", "sku_003")
+
