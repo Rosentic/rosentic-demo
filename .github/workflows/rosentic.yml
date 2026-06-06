@@ -30,6 +30,7 @@ jobs:
 
       - name: Rosentic Scan
         uses: Rosentic/rosentic-action@v1
+        with:
+          api-key: ${{ secrets.ROSENTIC_API_KEY }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ROSENTIC_API_KEY: ${{ secrets.ROSENTIC_API_KEY }}
